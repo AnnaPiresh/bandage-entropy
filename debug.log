@@ -1,0 +1,8 @@
+[0420/164351:ERROR:process_info.cc(608)] range at 0xfe4de000, size 0x230 fully unreadable
+[0420/164351:ERROR:process_reader_win.cc(113)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены.  (0xc0000022)
+[0420/164351:ERROR:exception_snapshot_win.cc(57)] thread ID 5612 not found in process
+[0420/164351:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed
+[0420/164409:ERROR:process_info.cc(608)] range at 0xfe9c5000, size 0x230 fully unreadable
+[0420/164409:ERROR:process_reader_win.cc(113)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены.  (0xc0000022)
+[0420/164409:ERROR:exception_snapshot_win.cc(57)] thread ID 5200 not found in process
+[0420/164409:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed
