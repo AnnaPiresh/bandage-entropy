@@ -13,8 +13,9 @@ describe("Actions performed on homepage", function(){
         //add waiter here
 
         lancerCePuzzleBtn.click().then(function(){
-            var currentWindow = browser.driver.getWindowHandle().then(function (handle) {
+            var notCurrentWindow = browser.driver.getWindowHandle().then(function (handle) {
                 console.log(handle);
+                console.log('test data');
             });
             //adding test comment
         });
