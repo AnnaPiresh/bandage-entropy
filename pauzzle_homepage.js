@@ -16,6 +16,7 @@ describe("Actions performed on homepage", function(){
             var currentWindow = browser.driver.getWindowHandle().then(function (handle) {
                 console.log(handle);
             });
+            //adding test comment
         });
     });
 });
