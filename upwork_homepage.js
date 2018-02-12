@@ -38,7 +38,7 @@ describe ("Actions on homepage", function () {
             });
         });
 
-    it("should show freelancer's categories", function () {
+    it("should show freelancer's categories совсем как Денис :)", function () {
         seeAllCategoriesBtn.click().then(function () {
             var skillNameField = $('.form-control').isPresent();
             expect(skillNameField).toBe(true);
