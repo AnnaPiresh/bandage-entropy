@@ -14,6 +14,7 @@ describe("Actions performed on homepage", function(){
 
         lancerCePuzzleBtn.click().then(function(){
             var currentWindow = browser.driver.getWindowHandle().then(function (handle) {
+                var currentWindow = browser.driver.getWindowHandle().then(function (handle)
                 console.log(handle);
             });
             //adding test comment
